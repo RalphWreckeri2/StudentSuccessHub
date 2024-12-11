@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("image/bsubg.png");
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(255, 255, 255, 0.15);
+  padding: 30px;
+  text-align: center;
+  border-radius: 12px;
+  width: 80%;
+  max-width: 600px;
+}
+
+.container p {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.container h2 {
+  color: white;
+  font-weight: 700;
+}
+
+.password-container {
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.password-container input {
+  width: 100% !important;
+  padding-right: 40px !important;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  user-select: none;
+  font-size: 16px;
+  z-index: 1;
+}
+
+input[type="password"],
+input[type="text"] {
+  width: 70%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: all 0.3s;
+}
+
+input[type="password"]:focus {
+  outline: none;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {
+  background-color: white;
+  color: #ff3131;
+  padding: 15px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  width: 180px;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background-color: #ff3131;
+  color: white;
+  transform: translateY(-1px);
+}
+
+.password-requirement {
+  font-size: 12px;
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+#password-match-message {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #ff3131;
+}
+
+#submit-btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}

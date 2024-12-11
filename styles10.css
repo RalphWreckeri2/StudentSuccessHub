@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("image/bsubg.png");
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(255, 255, 255, 0.15);
+  padding: 30px;
+  text-align: center;
+  border-radius: 12px;
+  width: 80%;
+  max-width: 600px;
+}
+
+.warning-box::before {
+  /* content: "📩"; */
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  color: #ff3131;
+  font-size: 24px;
+}
+
+.warning-box::after {
+  /* content: "📩"; */
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #ff3131;
+  font-size: 24px;
+}
+
+.warning-icon {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.notice-text {
+  color: white;
+  font-size: 24px;
+  margin: 0 0 10px 0;
+  font-weight: 500;
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.proceed-btn {
+  background-color: white;
+  color: #ff3131;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.proceed-btn:hover {
+  background-color: #ff3131;
+  color: white;
+  transform: translateY(-1px);
+}
+
+.message {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 25px;
+  margin-top: 0;
+}
