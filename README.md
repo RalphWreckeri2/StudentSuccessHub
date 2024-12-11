@@ -14,5 +14,7 @@ Note<br>
 📍Forgot Password may not also work since we used a personal account for the sender.<br>
 📍PHP Composer and Mailer are also included in this file.<br><br>
 
-Student Success Hub. All Rights Reserved<br>
-- The Developers
+Student Success Hub. All Rights Reserved
+- The Developers<be><br>
+
+PS: The GUI of this web application might not work when it is not directly accessed using the login. Why? We are using a modal layout.
