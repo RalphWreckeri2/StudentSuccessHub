@@ -17,4 +17,6 @@ Note<br>
 Student Success Hub. All Rights Reserved
 - The Developers<be><br>
 
-PS: The GUI of this web application might not work when it is not directly accessed using the login. Why? We are using a modal layout.
+PS: The GUI of this web application might not work when it is not directly accessed using the login. Why? We are using a modal layout.<br>
+
+Here is the complete file in this linke <a href="https://drive.google.com/drive/folders/1N-SrKVijW0ptgJZONEQR8R2qflAK3QX-?usp=sharing">Student Success Hub</a>
